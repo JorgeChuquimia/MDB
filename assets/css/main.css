@@ -1,0 +1,306 @@
+/*section cards*/
+.hovercate {
+  position: relative;
+  overflow: hidden;
+  margin: auto;
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  background-color: #000;
+  border-radius: 10px;
+  transition: 0.3s;
+  display: block;
+  height: 200px;
+}
+
+.hovercate:hover {
+  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.45);
+  transition: 0.3s;
+}
+
+.hovercate *,
+.hovercate *:before,
+.hovercate *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.55s ease;
+  transition: all 0.55s ease;
+}
+
+.hovercate img {
+  width: 100%;
+  backface-visibility: hidden;
+  vertical-align: top;
+}
+
+.hovercate figcaption {
+  position: absolute;
+  bottom: 25px;
+  right: 25px;
+  padding: 5px 10px 10px;
+}
+
+.hovercate figcaption:before,
+.hovercate figcaption:after {
+  height: 2px;
+  width: 600px;
+  position: absolute;
+  content: '';
+  background-color: #fff;
+}
+
+.hovercate figcaption:before {
+  top: 0;
+  left: 0;
+  -webkit-transform: translateX(100%);
+  transform: translateX(100%);
+}
+
+.hovercate figcaption:after {
+  bottom: 0;
+  right: 0;
+  -webkit-transform: translateX(-100%);
+  transform: translateX(-100%);
+}
+
+.hovercate figcaption div:before,
+.hovercate figcaption div:after {
+  width: 2px;
+  height: 300px;
+  position: absolute;
+  content: '';
+  background-color: #fff;
+}
+
+.hovercate figcaption div:before {
+  top: 0;
+  left: 0;
+  -webkit-transform: translateY(100%);
+  transform: translateY(100%);
+}
+
+.hovercate figcaption div:after {
+  bottom: 0;
+  right: 0;
+  -webkit-transform: translateY(-100%);
+  transform: translateY(-100%);
+}
+
+.hovercate h2,
+.hovercate h4 {
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.hovercate h2 {
+  font-weight: 800;
+  font-size: 25px;
+  margin-bottom: 5px;
+  text-shadow: 0px 2px 5px #000;
+}
+
+.hovercate h4 {
+  display: block;
+  font-weight: 700;
+  background-color: #ff0666;
+  padding: 5px 10px;
+  color: #fff;
+  font-size: 15px;
+  border-radius: 5px;
+  text-transform: initial;
+}
+
+.hovercate a {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  color: #fff;
+}
+
+.hovercate:hover img,
+.hovercate.hover img {
+  zoom: 1;
+  filter: alpha(opacity=50);
+  -webkit-opacity: 0.5;
+  opacity: 0.5;
+}
+
+.hovercate:hover figcaption:before,
+.hovercate.hover figcaption:before,
+.hovercate:hover figcaption:after,
+.hovercate.hover figcaption:after,
+.hovercate:hover figcaption div:before,
+.hovercate.hover figcaption div:before,
+.hovercate:hover figcaption div:after,
+.hovercate.hover figcaption div:after {
+  -webkit-transform: translate(0, 0);
+  transform: translate(0, 0);
+}
+
+.hovercate:hover figcaption:before,
+.hovercate.hover figcaption:before,
+.hovercate:hover figcaption:after,
+.hovercate.hover figcaption:after {
+  -webkit-transition-delay: 0.15s;
+  transition-delay: 0.15s;
+}
+
+/*section card end*/
+
+/*section whatsapp*/
+#whatsapp i,
+a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+#whatsapp h3 {
+  color: rgba(255, 6, 102, 1);
+  font-size: 32px;
+  font-family: inherit;
+  text-align: left;
+}
+
+#whatsapp h4 {
+  color: #4e5465;
+  font-family: inherit;
+  text-align: left;
+  font-size: 28px;
+  line-height: 28px;
+  font-weight: 800;
+}
+#whatsapp strong{
+  font-style: italic;
+}
+#ex{
+  color: #ff0666;
+  
+}
+
+/*section button whatsapp*/
+.bottonwhatsapp {
+  width: 270px;
+  height: 38px;
+  padding: 5px 20px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  background-color: #128c7e;
+  box-shadow: 0 2px 10px 0 rgba(128, 128, 128, 0.72);
+  font-family: 'lato' !important;
+  font-size: 17px;
+  color: #fff;
+  cursor: pointer;
+  display: block;
+  margin: auto;
+}
+
+/*section button whatsapp*/
+/*section whatsapp end*/
+
+/* section baner */
+/* Fondo con imagen y overlay */
+#section-background {
+  position: relative;
+  background-image: url('../img/06_redes_sociales_marketing_digital_bolivia.jpg');
+  background-size: cover;
+  background-position: center;
+  min-height: 60vh;
+  display: flex;
+  align-items: center;
+  color: white;
+  overflow: hidden;
+
+}
+
+#section-background h2 {
+  font-family: "Oswald";
+  font-size: 80px;
+}
+
+#section-background h3 {
+  text-transform: none;
+  font-family: "Oswald";
+  font-size: 25px;
+  color: #ff0666;
+}
+
+/* Overlay semitransparente */
+#section-background::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 0;
+}
+
+/* Contenedor con z-index para texto */
+#section-background .container {
+  position: relative;
+  z-index: 1;
+}
+
+/* section baner end*/
+/* section link */
+#links div {
+  background-color: #030303;
+}
+
+#links h3,
+i {
+
+  color: rgba(255, 6, 102, 0.8);
+  font-size: 18px;
+  text-align: left;
+}
+
+#links ul {
+  color: #8d8c8c;
+}
+
+#links a {
+  color: #8d8c8c;
+  text-decoration: none;
+  font-size: 13px;
+}
+
+#links a:hover {
+  color: rgba(255, 6, 102, 0.8);
+}
+
+
+/* section link end */
+
+/* section footer */
+#footer {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #030303;
+  font-size: 10px;
+  color: #8d8c8c;
+}
+
+#footer span {
+  color: rgba(255, 255, 255, 1);
+  font-size: 10px;
+}
+
+#footer img {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  float: left;
+  width: 87px;
+  height: 31px;
+}
+
+hr {
+  border-top: 1px solid;
+  color: #8d8c8c;
+}
+
+/* section footer end */
