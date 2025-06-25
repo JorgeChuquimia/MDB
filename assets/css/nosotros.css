@@ -1,0 +1,438 @@
+/*section header*/
+#navbar.navbar-sticky {
+  position: fixed;
+  z-index: 9999;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.24);
+}
+
+#navbar {
+  height: auto;
+  left: 10%;
+  position: absolute;
+  top: 0;
+  width: 80%;
+  z-index: 99;
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.1);
+  background: rgba(0, 0, 0, 0) linear-gradient(to left, rgba(255, 255, 255, 255), rgba(255, 255, 255, 0.8)) repeat-x scroll 0 0;
+  right: 10%;
+  border-radius: 0px 0px 15px 15px;
+}
+
+#navbar .logo {
+  height: 60px;
+  display: inline-flex;
+  margin: 0;
+  align-items: center;
+}
+
+#navbar .logo a {
+  font-size: 24px;
+  line-height: 1;
+  margin: 0;
+  padding: 0;
+}
+
+#navbar .logo p {
+  margin: 5px 0 0;
+}
+
+#navbar i {
+  font-size: 45px;
+}
+
+#navbar.navbar-sticky {
+  position: fixed;
+  z-index: 9999;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.24);
+}
+
+.logo-image {
+  height: 60px;
+}
+
+#offcanvas-toggler.offcanvas-toggler-right {
+  float: right;
+  margin-left: 20px;
+  color: #dd2b70;
+}
+
+#offcanvas-toggler {
+  display: block;
+  height: 65px;
+  line-height: 60px;
+  font-size: 40px;
+}
+
+/*section header end*/
+
+/*section slider*/
+#section {
+  z-index: 1;
+  position: relative;
+  padding-top: 100px;
+  padding-right: 0px;
+  padding-bottom: 50px;
+  padding-left: 0px;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  background-image: url(../img/openfs-srl-software-libre-bolivia-ley-164-decreto-supremo-1793-3251-banner-contactos.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.content {
+  max-width: 540px;
+  color: #fff;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-position: center;
+  background-repeat: repeat;
+  z-index: -1;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.somos {
+  visibility: visible;
+  animation-duration: 900ms;
+  animation-name: flipInX;
+}
+
+.mark {
+  visibility: visible;
+  animation-duration: 1000ms;
+  animation-name: bounceInRight;
+  color: #ffffff;
+}
+
+.fom {
+  visibility: visible;
+  animation-duration: 1000ms;
+  animation-name: bounceInLeft;
+}
+
+.image {
+  animation-duration: 1000ms;
+  animation-name: bounceInRight;
+}
+
+/*section slider end*/
+/*section nosotros*/
+#history {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.historys {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+}
+
+.title {
+  margin: 0px 0px 30px 0px;
+  padding: 0px 0px 0px 0px;
+  font-size: 30px;
+  line-height: 30px;
+  font-weight: 900;
+}
+
+.img {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+}
+
+.imagen {
+  margin-bottom: 20px;
+  position: relative;
+  overflow: hidden;
+}
+
+.name {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.designation {
+  margin-top: 5px;
+  display: block;
+  font-size: 14px;
+  font-weight: 500;
+  color: rgba(0, 0, 0, .4);
+}
+
+.icons {
+  margin-top: 10px;
+}
+
+.social {
+  list-style: none;
+  display: block;
+  padding: 0;
+  margin: 0 -5px;
+}
+
+.social li {
+  display: inline-block;
+  margin: 0 5px;
+}
+
+.social i {
+  display: block;
+  font-size: 14px;
+  line-height: 14px;
+  color: #999;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.cont {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.adonds {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+}
+
+.clearfix {
+  color: #ffffff;
+  margin: 30px;
+}
+
+.addon-title {
+  margin: 0px 0px 35px 0px;
+  padding: 0px 0px 0px 0px;
+  font-size: 25px;
+  line-height: 25px;
+  font-size: 35px;
+  line-height: 35px;
+  font-weight: 900;
+}
+
+.addon-title h3 {
+  font-size: 1.75rem;
+}
+
+.btn {
+  transition: 0.3s;
+  box-shadow: 0px 2px 4px black;
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  white-space: pre-line;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: 8px 12px;
+  font-size: 16px;
+  line-height: 1.25;
+  border-radius: 4px;
+  transition: all .15s ease-in-out;
+}
+
+.btn-lg {
+  padding: 8px 16px;
+  font-size: 20px;
+  line-height: 1.5;
+  border-radius: 5px;
+}
+
+#over {
+  background: rgba(0, 0, 0, 0.5);
+  position: relative;
+  background-image: url(../img/contacto_marketing_digital_bolivia2.jpg);
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-position: center center;
+  background-repeat: repeat;
+  z-index: 1;
+}
+
+/*section nosotros end*/
+/* section baner */
+/* Fondo con imagen y overlay */
+#section-background {
+  position: relative;
+  background-image: url("../img/contacto_marketing_digital_bolivia2.jpg");
+  background-size: cover;
+  background-position: center;
+  min-height: 42vh;
+  display: flex;
+  align-items: center;
+  color: white;
+  overflow: hidden;
+}
+
+#section-background h3 {
+  text-transform: none;
+  font-family: "inherit";
+  line-height: 57px;
+  font-size: 25px;
+  color: #ffff;
+}
+
+/* Overlay semitransparente */
+#section-background::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: rgba(17, 16, 16, 0.5);
+  z-index: 0;
+}
+
+/* Contenedor con z-index para texto */
+#section-background .container {
+  position: relative;
+  z-index: 1;
+}
+
+/* section baner end*/
+/* section link */
+#links div {
+  background-color: #030303;
+}
+
+#links h3,
+i {
+  color: rgba(255, 6, 102, 0.8);
+  font-size: 18px;
+  text-align: left;
+}
+
+#links ul {
+  color: #8d8c8c;
+}
+
+#links a {
+  color: #8d8c8c;
+  text-decoration: none;
+  font-size: 13px;
+}
+
+#links a:hover {
+  color: rgba(255, 6, 102, 0.8);
+}
+
+/* section link end */
+
+/* section footer */
+#footer {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #030303;
+  font-size: 10px;
+  color: #8d8c8c;
+}
+
+#footer span {
+  color: rgba(255, 255, 255, 1);
+  font-size: 10px;
+}
+
+#footer img {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  float: left;
+  width: 87px;
+  height: 31px;
+}
+
+hr {
+  border-top: 1px solid;
+  color: #8d8c8c;
+}
+
+/* section footer end */
+/* section off canvas*/
+#offcanvas-menu {
+  width: 300px;
+  height: 50%;
+  position: fixed;
+  top: 0;
+  overflow: inherit;
+  -webkit-transition: all 0.6s;
+  transition: all 0.6s;
+  z-index: 10000;
+}
+
+#offcanvasWithBothOptions {
+  background-color: transparent;
+  width: 300px;
+}
+
+#offcanvas-header {
+  background: #fff;
+}
+
+#offcanvas-menu ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+#offcanvas-menu ul>li {
+  border: 0;
+  padding: 0;
+  margin: 0;
+  position: relative;
+  overflow: hidden;
+  display: block;
+}
+
+#offcanvas-menu ul>li a {
+  display: block;
+  font-size: 13px;
+  padding: 0.125rem 0;
+  position: relative;
+  font-weight: 600;
+  border-bottom: 1px solid #dadada;
+  margin-top: 16px;
+  border-radius: 0px 0px 0px 5px;
+  text-transform: uppercase;
+  font-weight: 600;
+  text-decoration: none;
+  color: #030303;
+}
+
+#offcanvas-menu a:hover {
+  color: rgba(255, 6, 102, 0.8);
+}
+
+#offcanvas-body {
+  padding: 30px;
+  background: #fff;
+  border-radius: 0px 0px 0px 40px;
+}
+
+/* section off canvas end*/
