@@ -1,0 +1,443 @@
+/*section*/
+#navbar.navbar-sticky {
+  position: fixed;
+  z-index: 9999;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.24);
+}
+
+#navbar {
+  height: auto;
+  left: 10%;
+  position: absolute;
+  top: 0;
+  width: 80%;
+  z-index: 99;
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.1);
+  background: rgba(0, 0, 0, 0)
+    linear-gradient(to left, rgba(255, 255, 255, 255), rgba(255, 255, 255, 0.8))
+    repeat-x scroll 0 0;
+  right: 10%;
+  border-radius: 0px 0px 15px 15px;
+}
+
+#navbar .logo {
+  height: 60px;
+  display: inline-flex;
+  margin: 0;
+  align-items: center;
+}
+
+#navbar .logo a {
+  font-size: 24px;
+  line-height: 1;
+  margin: 0;
+  padding: 0;
+}
+
+#navbar .logo p {
+  margin: 5px 0 0;
+}
+#navbar i {
+  font-size: 45px;
+}
+
+#navbar.navbar-sticky {
+  position: fixed;
+  z-index: 9999;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.24);
+}
+
+.logo-image {
+  height: 60px;
+}
+#offcanvas-toggler.offcanvas-toggler-right {
+  float: right;
+  margin-left: 20px;
+  color: #dd2b70;
+}
+
+#offcanvas-toggler {
+  display: block;
+  height: 65px;
+  line-height: 60px;
+  font-size: 40px;
+}
+/*section header end*/
+
+/*section slider*/
+#section {
+  margin-top: 0;
+  will-change: top;
+  z-index: 1;
+  position: relative;
+  padding-top: 170px;
+  padding-right: 0px;
+  padding-bottom: 175px;
+  padding-left: 0px;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  color: rgba(255, 255, 255, 1);
+  background-image: url(../img/paginasweb-ghipi-2.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: inherit;
+  background-position: 50% 50%;
+}
+.video {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  z-index: -1;
+}
+video {
+  object-fit: cover;
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+}
+.overlay {
+  background-color: rgba(0, 0, 0, 0.51);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-position: center center;
+  background-repeat: repeat;
+  z-index: -1;
+}
+.container {
+  max-width: 540px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  z-index: 99999;
+  bottom: -1px;
+}
+.row {
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.colum {
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.animation {
+  opacity: 1;
+  transform: translateY(0px);
+  visibility: visible;
+  animation-duration: 600ms;
+  animation-name: fadeInDown;
+  color: rgba(255, 255, 255, 1);
+}
+.title {
+  margin: 0px 0px 30px 0px;
+  padding: 0px 0px 0px 0px;
+  font-size: 48px;
+  line-height: 48px;
+  line-height: 1.6px;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+.animation2 {
+  opacity: 1;
+  transform: translateY(0px);
+  visibility: visible;
+  animation-duration: 600ms;
+  animation-delay: 600ms;
+  animation-name: fadeInDown;
+}
+.title2 {
+  margin: 0px 0px 25px 0px;
+  padding: 0px 0px 0px 0px;
+  font-size: 18px;
+  line-height: 18px;
+  line-height: 25px;
+}
+#hiden {
+  visibility: visible;
+  animation-duration: 600ms;
+  animation-delay: 900ms;
+  animation-name: fadeInDown;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  -webkit-animation-name: flash;
+  -moz-animation-name: flash;
+  -o-animation-name: flash;
+  animation-name: flash;
+  -webkit-animation-duration: 10s !important;
+  -moz-animation-duration: 10s !important;
+  -ms-animation-duration: 10s !important;
+  -o-animation-duration: 10s !important;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+}
+
+.fadeInDown {
+  animation-name: fadeInDown;
+}
+.img-container {
+  display: inline-block;
+  position: relative;
+}
+.img-responsive {
+  display: inline-block;
+  display: block;
+  width: 100%\9;
+  max-width: 100%;
+  height: auto;
+}
+/*end section slider*/
+/*section redes sociales*/
+#section2 {
+  will-change: top;
+  z-index: 1;
+  position: relative;
+  padding: 50px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+}
+.container2 {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.colum2 {
+  padding-top: 0;
+  padding-right: 0;
+  padding-bottom: 30px;
+  padding-left: 0;
+  width: 100%;
+  height: 100%;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  position: relative;
+  z-index: 1;
+}
+.icon-facebook i {
+  display: inline-block;
+  text-align: center;
+  padding: 0;
+  color: rgba(0, 97, 224, 1);
+  border-width: 0px;
+  font-size: 72px;
+  width: 72px;
+  height: 72px;
+  line-height: 72px;
+}
+.icon-twitter i {
+  display: inline-block;
+  text-align: center;
+  padding: 0 0 0 0;
+  color: rgba(106, 195, 230, 1);
+  border-width: 0px;
+  font-size: 72px;
+  width: 72px;
+  height: 72px;
+  line-height: 72px;
+}
+.icon-youtube i {
+  display: inline-block;
+  text-align: center;
+  padding: 0;
+  color: rgba(235, 7, 53, 1);
+  border-width: 0px;
+  font-size: 72px;
+  width: 72px;
+  height: 72px;
+  line-height: 72px;
+}
+/*section redes sociales end*/
+/*section ubicacion*/
+.section-ubicacion {
+  will-change: top;
+  z-index: 1;
+  position: relative;
+  padding-top: 30px;
+  padding-right: 0px;
+  padding-bottom: 10px;
+  padding-left: 0px;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  background-color: rgba(250, 252, 255, 1);
+  width: 100%;
+}
+.cont-svg {
+  z-index: 99999;
+  bottom: -1px;
+  overflow: hidden;
+  position: absolute;
+  left: 0;
+  width: 100%;
+  line-height: 0;
+}
+.addons {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+}
+.colums {
+  width: 100%;
+  height: 100%;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+.cont-svg {
+  z-index: 99999;
+  bottom: -1px;
+  overflow: hidden;
+  position: absolute;
+  left: 0;
+  width: 100%;
+  line-height: 0;
+}
+.svg {
+  height: 70px;
+  transform: rotate(180deg) translateX(50%);
+  display: block;
+  width: 100%;
+  position: relative;
+  left: 50%;
+  overflow: hidden;
+}
+/*section ubicacion end*/
+/* section link */
+#links div {
+  background-color: #030303;
+}
+
+#links h3,
+i {
+  color: rgba(255, 6, 102, 0.8);
+  font-size: 18px;
+  text-align: left;
+}
+
+#links ul {
+  color: #8d8c8c;
+}
+
+#links a {
+  color: #8d8c8c;
+  text-decoration: none;
+  font-size: 13px;
+}
+
+#links a:hover {
+  color: rgba(255, 6, 102, 0.8);
+}
+
+/* section link end */
+
+/* section footer */
+#footer {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #030303;
+  font-size: 10px;
+  color: #8d8c8c;
+}
+
+#footer span {
+  color: rgba(255, 255, 255, 1);
+  font-size: 10px;
+}
+
+#footer img {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  float: left;
+  width: 87px;
+  height: 31px;
+}
+
+hr {
+  border-top: 1px solid;
+  color: #8d8c8c;
+}
+
+/* section footer end */
+/* section off canvas*/
+#offcanvas-menu {
+  width: 300px;
+  height: 50%;
+  position: fixed;
+  top: 0;
+  overflow: inherit;
+  -webkit-transition: all 0.6s;
+  transition: all 0.6s;
+  z-index: 10000;
+}
+#offcanvasWithBothOptions {
+  background-color: transparent;
+  width: 300px;
+}
+#offcanvas-header {
+  background: #fff;
+}
+#offcanvas-menu ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+#offcanvas-menu ul > li {
+  border: 0;
+  padding: 0;
+  margin: 0;
+  position: relative;
+  overflow: hidden;
+  display: block;
+}
+#offcanvas-menu ul > li a {
+  display: block;
+  font-size: 13px;
+  padding: 0.125rem 0;
+  position: relative;
+  font-weight: 600;
+  border-bottom: 1px solid #dadada;
+  margin-top: 16px;
+  border-radius: 0px 0px 0px 5px;
+  text-transform: uppercase;
+  font-weight: 600;
+  text-decoration: none;
+  color: #030303;
+}
+#offcanvas-menu a:hover {
+  color: rgba(255, 6, 102, 0.8);
+}
+#offcanvas-body {
+  padding: 30px;
+  background: #fff;
+  border-radius: 0px 0px 0px 40px;
+}
+/* section off canvas end*/

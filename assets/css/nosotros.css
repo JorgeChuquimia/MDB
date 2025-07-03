@@ -13,7 +13,9 @@
   width: 80%;
   z-index: 99;
   box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.1);
-  background: rgba(0, 0, 0, 0) linear-gradient(to left, rgba(255, 255, 255, 255), rgba(255, 255, 255, 0.8)) repeat-x scroll 0 0;
+  background: rgba(0, 0, 0, 0)
+    linear-gradient(to left, rgba(255, 255, 255, 255), rgba(255, 255, 255, 0.8))
+    repeat-x scroll 0 0;
   right: 10%;
   border-radius: 0px 0px 15px 15px;
 }
@@ -97,7 +99,7 @@
   background-position: center;
   background-repeat: repeat;
   z-index: -1;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.68);
 }
 
 .somos {
@@ -118,7 +120,16 @@
   animation-duration: 1000ms;
   animation-name: bounceInLeft;
 }
-
+.zom {
+  visibility: visible;
+  animation-duration: 600ms;
+  animation-name: zoomIn;
+}
+.fadeInDown {
+  visibility: visible;
+  animation-duration: 900ms;
+  animation-name: fadeInDown;
+}
 .image {
   animation-duration: 1000ms;
   animation-name: bounceInRight;
@@ -169,7 +180,7 @@
   display: block;
   font-size: 14px;
   font-weight: 500;
-  color: rgba(0, 0, 0, .4);
+  color: rgba(0, 0, 0, 0.4);
 }
 
 .icons {
@@ -196,14 +207,36 @@
   text-decoration: none;
   background-color: transparent;
 }
-
-.cont {
-  margin-right: auto;
-  margin-left: auto;
-  padding-left: 15px;
-  padding-right: 15px;
+/*section baner************************************************/
+#section2 {
+  z-index: 1;
+  position: relative;
+  padding-top: 100px;
+  padding-right: 0px;
+  padding-bottom: 50px;
+  padding-left: 0px;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  background-image: url(../img/contacto_marketing_digital_bolivia2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
 }
-
+.contenido {
+  max-width: 540px;
+}
+.overlay2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-position: center;
+  z-index: -1;
+  background: rgba(3, 3, 3, 0.72);
+}
 .adonds {
   position: relative;
   z-index: 1;
@@ -212,7 +245,7 @@
 
 .clearfix {
   color: #ffffff;
-  margin: 30px;
+  margin: 50px;
 }
 
 .addon-title {
@@ -246,7 +279,7 @@
   font-size: 16px;
   line-height: 1.25;
   border-radius: 4px;
-  transition: all .15s ease-in-out;
+  transition: all 0.15s ease-in-out;
 }
 
 .btn-lg {
@@ -256,58 +289,7 @@
   border-radius: 5px;
 }
 
-#over {
-  background: rgba(0, 0, 0, 0.5);
-  position: relative;
-  background-image: url(../img/contacto_marketing_digital_bolivia2.jpg);
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-position: center center;
-  background-repeat: repeat;
-  z-index: 1;
-}
-
-/*section nosotros end*/
-/* section baner */
-/* Fondo con imagen y overlay */
-#section-background {
-  position: relative;
-  background-image: url("../img/contacto_marketing_digital_bolivia2.jpg");
-  background-size: cover;
-  background-position: center;
-  min-height: 42vh;
-  display: flex;
-  align-items: center;
-  color: white;
-  overflow: hidden;
-}
-
-#section-background h3 {
-  text-transform: none;
-  font-family: "inherit";
-  line-height: 57px;
-  font-size: 25px;
-  color: #ffff;
-}
-
-/* Overlay semitransparente */
-#section-background::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background-color: rgba(17, 16, 16, 0.5);
-  z-index: 0;
-}
-
-/* Contenedor con z-index para texto */
-#section-background .container {
-  position: relative;
-  z-index: 1;
-}
-
-/* section baner end*/
+/* section baner ****************************************************/
 /* section link */
 #links div {
   background-color: #030303;
@@ -401,7 +383,7 @@ hr {
   list-style: none;
 }
 
-#offcanvas-menu ul>li {
+#offcanvas-menu ul > li {
   border: 0;
   padding: 0;
   margin: 0;
@@ -410,7 +392,7 @@ hr {
   display: block;
 }
 
-#offcanvas-menu ul>li a {
+#offcanvas-menu ul > li a {
   display: block;
   font-size: 13px;
   padding: 0.125rem 0;
